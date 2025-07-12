@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interacción DOM y Persistencia</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-$END$
+
+  <div class="container">
+    <h1>Interfaz Interactiva con Persistencia de Datos</h1>
+
+    <!-- Formulario para capturar nombre y edad -->
+    <form id="formulario">
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required placeholder="Ingresa tu nombre">
+      </div>
+
+      <div class="form-group">
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" required placeholder="Ingresa tu edad" min="1" max="120">
+      </div>
+
+      <div class="button-group">
+        <button type="button" id="guardarBtn">Guardar Datos</button>
+        <button type="button" id="limpiarBtn">Limpiar Datos</button>
+      </div>
+    </form>
+
+    <!-- Área para mostrar los datos almacenados -->
+    <div class="output-section">
+      <div id="output"></div>
+      <div id="contador"></div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+
 </body>
 </html>
