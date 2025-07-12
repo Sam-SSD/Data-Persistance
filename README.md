@@ -147,22 +147,6 @@ Para debugging, abre las herramientas de desarrollador (F12):
 - **Application**: Ver datos en Local Storage y Session Storage
 - **Elements**: Inspeccionar la estructura HTML y CSS
 
-## 📈 Mejoras Futuras
-
-### Funcionalidades Planificadas
-- [ ] Exportar datos a CSV/JSON
-- [ ] Múltiples perfiles de usuario
-- [ ] Sincronización en la nube
-- [ ] Temas personalizables
-- [ ] Modo oscuro/claro
-- [ ] Historial de cambios
-
-### Optimizaciones Técnicas
-- [ ] Implementar Service Workers para offline
-- [ ] Agregar PWA capabilities
-- [ ] Optimizar rendimiento
-- [ ] Implementar tests automatizados
-
 ## 👥 Contribución
 
 ### Cómo Contribuir
